@@ -13,11 +13,7 @@ describe('Navigate to HOTELS menu and check all options', () => {
   
     })
 
-    // it('Check HOTELS button ', () => {
-    //     cy.get(hotels).should("be.visible")
-    //     cy.get(hotels).click()
-    //     cy.get('.hotels-wrap').should("be.visible")
-    //   })
+  
 
       it('Check drop down list Destinations ', () => {
         cy.get('#Filter_DestinationId').should("be.visible")
